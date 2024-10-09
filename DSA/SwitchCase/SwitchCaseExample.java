@@ -44,7 +44,7 @@ public class SwitchCaseExample {
         Candy candy = example.new Candy("Sample", 0);
 
         // Get candy based on money
-        Candy selectedCandy = candy.getCandy(2);
+        Candy selectedCandy = candy.getCandy(0);
         // Print the selected candy
         System.out.println(selectedCandy);
     }

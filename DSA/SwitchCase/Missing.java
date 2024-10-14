@@ -16,7 +16,7 @@ class Solution {
 
     public static void main(String[] args) {
         Solution s = new Solution();
-        int[] nums = {1, 2, 3, 4, 6};
+        int[] nums = {0, 1, 2, 4, 6};
         int result = s.missingNumber(nums);
         System.out.println(result);
     }

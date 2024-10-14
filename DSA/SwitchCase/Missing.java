@@ -3,19 +3,21 @@ package SwitchCase;
 class Solution {
     public int missingNumber(int[] nums) {
         int n = nums.length;
-        int[] v = new int[n+1];
-        for(int i = 0; i < n; i++){
-            v[nums[i]] = 1;
+        for (int i = 0; i < n; i++) {
+            nums[nums[i] % n] += n;
         }
-        for(int i = 0; i < n+1; i++){
-            if(v[i] == 0){
+        for (int i = 0; i < n; i++) {
+            if (nums[i] < n) {
                 return i;
             }
         }
-        return 0;
+        return n;
+    }
 
-        
-
-        
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        int[] nums = {1, 2, 3, 4, 6};
+        int result = s.missingNumber(nums);
+        System.out.println(result);
     }
 }

@@ -12,6 +12,7 @@ public class SensorAnalysis {
     private static boolean[][] visited;  // Visited cells for the DFS/BFS
 
     public static void main(String[] args) throws IOException {
+        @SuppressWarnings("resource")
         BufferedReader br = new BufferedReader(new FileReader("ASensor/sensor2.txt"));
         N = Integer.parseInt(br.readLine());
         grid = new int[N][N];

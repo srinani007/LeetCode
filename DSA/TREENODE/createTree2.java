@@ -1,6 +1,6 @@
 package TREENODE;
 
-public class createTree {
+public class createTree2 {
     public TreeNode sortedArrayToBST(int[] nums) {
         return createTree(nums, 0, nums.length -1);
     }
@@ -15,6 +15,12 @@ public class createTree {
         root.left = createTree(nums, i, mid - 1);
         root.right = createTree(nums, mid + 1, j);
         return root;
+    }
+    public static void main(String[] args) {
+        int[] nums = {-10,-3,0,5,9};
+        createTree2 tree = new createTree2();
+        TreeNode root = tree.sortedArrayToBST(nums);
+        System.out.println(root.val);
     }
      
 

@@ -3,6 +3,7 @@ package ReverseString;
 import java.util.Stack;
 
 public class ReverseStack {
+    @SuppressWarnings({ "unchecked", "rawtypes" })
     public String reverse(String s) {
         Stack<Character> stack = new Stack();
             for(char c : s.toCharArray()) {

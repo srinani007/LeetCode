@@ -1,4 +1,4 @@
-package ReverseString;
+package Stack;
 
 import java.util.Stack;
 

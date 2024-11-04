@@ -11,10 +11,7 @@ public class Reverse {
             i++;
             j--;
         }
-    }
-
-    
-
+    } 
     public static void main(String[] args) {
         Reverse r=new Reverse();
         char[] s={'h','e','l','l','o'};

@@ -1,4 +1,4 @@
-package Stack.ReverseString;
+package ReverseString;
 
 public class Reverse {
     public void reverseString(char[] s){

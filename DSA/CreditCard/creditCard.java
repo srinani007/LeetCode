@@ -45,7 +45,4 @@ public class creditCard {
         System.out.println("Balance = " + c.getBalance());
         System.out.println("Limit = " + c.getLimit());
     }
-    
-
-    
 }

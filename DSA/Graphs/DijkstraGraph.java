@@ -19,6 +19,7 @@ public class DijkstraGraph {
         }
     }
 
+    @SuppressWarnings("unused")
     public void addEdge(int source, int destination, int weight) {
         adjList.computeIfAbsent(source, k -> new ArrayList<>()).add(new Edge(destination, weight));
     }

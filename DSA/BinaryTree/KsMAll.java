@@ -1,6 +1,5 @@
 package BinaryTree;
-
-public class TreeNode {
+class TreeNode{
     int val;
     TreeNode left;
     TreeNode right;
@@ -15,7 +14,7 @@ public class TreeNode {
 }
 
 
-class KsMAll {
+public class KsMAll {
     private int count = 0;
     private int result = 0;
     public int kthSmallest(TreeNode root, int k) {

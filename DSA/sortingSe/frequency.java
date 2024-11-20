@@ -8,9 +8,10 @@ import java.util.List;
 
 
 public class frequency {
-    @SuppressWarnings("unused")
+    
     public List<List<String>> groupAnagrams(String[] str){
-        /* Map<String, List<String>> map = new HashMap<>();
+
+         Map<String, List<String>> map = new HashMap<>();
         for (String s : str) {
             char[] charArray = s.toCharArray();
             Arrays.sort(charArray);
@@ -19,7 +20,7 @@ public class frequency {
             map.putIfAbsent(stored, new ArrayList<>());
             map.get(stored).add(s);
         }
-        return new ArrayList<>(map.values());*/
+        return new ArrayList<>(map.values());
 
         /*Map<String, List<String>> map = new HashMap<>();
         for (String s : str) {
@@ -41,7 +42,7 @@ public class frequency {
             map.computeIfAbsent(stored, k -> new ArrayList<>()).add(s);
         }
         return new ArrayList<>(map.values());*/
-        Map<String, List<String>> map = new HashMap<>();
+        
         
         
     }

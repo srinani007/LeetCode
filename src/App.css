@@ -26,6 +26,12 @@
 
 .App-link {
   color: #61dafb;
+  text-decoration: none; /* Added for better appearance */
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.App-link:hover {
+  color: #21a1f1; /* Added hover effect */
 }
 
 @keyframes App-logo-spin {

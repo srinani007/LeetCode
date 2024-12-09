@@ -1,14 +1,20 @@
 import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/TempHome';
-import Login from './components/Login'; // Import the Login component
+import Login from './components/Login';
+import Dashboard from './components/Dashboard';
 
 function App() {
     return (
-        <div className="App">
-            <Home /> {/* Render the Home component */}
-            <Login /> {/* Render the Login component */}
-        </div>
+        <Router>
+            <Routes>
+                {/* Define each route using <Route>, not <Routes> */}
+                <Route path="/" element={<Home />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/dashboard" element={<Dashboard />} />
+            </Routes>
+        </Router>
     );
 }
 

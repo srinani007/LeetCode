@@ -1,3 +1,15 @@
 {
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "cSpell.words": [
+        "abcabcbb",
+        "Contructing",
+        "inorder",
+        "lenght",
+        "nums",
+        "numsofisland",
+        "Oflongest",
+        "preorder",
+        "Roatated",
+        "Vscomp"
+    ]
 }

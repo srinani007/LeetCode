@@ -2,14 +2,23 @@
     "java.debug.settings.onBuildFailureProceed": true,
     "cSpell.words": [
         "abcabcbb",
+        "ADOBECODEBANC",
+        "Asymetric",
+        "Climbling",
         "Contructing",
+        "couting",
         "inorder",
         "lenght",
+        "maxx",
         "nums",
         "numsofisland",
         "Oflongest",
         "preorder",
         "Roatated",
-        "Vscomp"
+        "subarray",
+        "tcount",
+        "TREENODE",
+        "Vscomp",
+        "windowslider"
     ]
 }

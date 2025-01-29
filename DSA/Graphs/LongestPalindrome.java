@@ -62,6 +62,7 @@ public class LongestPalindrome {
         }
         return s.substring(st, st + max_len);
     }
+    
     public static void main(String[] args) {
         LongestPalindrome solution = new LongestPalindrome();
         String s = "babad";

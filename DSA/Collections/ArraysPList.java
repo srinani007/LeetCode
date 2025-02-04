@@ -17,9 +17,9 @@ public class ArraysPList {
         System.out.println(list);
 
         List<String> list2 = new LinkedList<>();
-        list2.add("Javba");
-        list2.add("Java");
-        list2.add("Python");
+        list2.add("b");
+        list2.add("a");
+        list2.add("c");
         list2.add("GO");
         long a = list2.stream().count();
         System.out.println(list2);
@@ -35,10 +35,10 @@ public class ArraysPList {
         System.out.println(list3);
 
         List<String> list4 = new Stack<>();
-        list4.add("Javba");
+        list4.add("GO");
         list4.add("Java");
         list4.add("Python");
-        list4.add("GO");
+        list4.add("j");
         System.out.println(list4);
 
     }

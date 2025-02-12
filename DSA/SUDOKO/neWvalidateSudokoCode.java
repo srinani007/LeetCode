@@ -47,7 +47,8 @@ public class neWvalidateSudokoCode {
         
     private static boolean isValidBoxes(int[][] board) {
         for (int row = 0; row < N; row += 2) {
-            for (int col = 0; col < N; col += 2) {                    boolean[] seen = new boolean[N+1];
+            for (int col = 0; col < N; col += 2) {                    
+                boolean[] seen = new boolean[N+1];
                 for (int i = 0; i < 2; i++) {
                     for (int j = 0; j < 2; j++) {
                         int num = board[row + i][col + j];

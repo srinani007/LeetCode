@@ -2,10 +2,11 @@ package Graphs;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-class Graph {
+class GraphMap {
     private Map<Integer, List<Integer>> adjacencyList = new HashMap<>();
 
     /**
@@ -66,11 +67,16 @@ class Graph {
             System.out.println();
         }
     }
+
+    public void DFS(int i, Set<Integer> visited) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'DFS'");
+    }
 }
 
 public class GraphExample {
     public static void main(String[] args) {
-        Graph graph = new Graph();
+        GraphMap graph = new GraphMap();
         graph.addVertex(0);
         graph.addVertex(1);
         graph.addVertex(2);

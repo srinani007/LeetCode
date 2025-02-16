@@ -1,5 +1,5 @@
 package TREENODE;
-public class ClimblingStep {
+public class ClimbingStep {
     public int climbStairs(int n) {
         if (n == 1 || n == 2)
             return n;
@@ -11,4 +11,10 @@ public class ClimblingStep {
         }
         return c;
     }
+    public static void main(String[] args) {
+        ClimbingStep cs = new ClimbingStep();   
+        System.out.println(cs.climbStairs(5));
+        
+    }
+    
 }

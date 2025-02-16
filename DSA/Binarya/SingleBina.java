@@ -11,4 +11,8 @@ public class SingleBina {
         }
         return sum;
     }
+    public static void main(String[] args) {
+        SingleBina singleBina = new SingleBina();
+        System.out.println(singleBina.hammingWeight(00000000000000000000000000001011));
+    }
 }

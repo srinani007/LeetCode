@@ -1,25 +1,19 @@
 package BinaryTree;
 
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    public String value;
+    TreeNode(int x) { val = x; }
+}
+
 
 
 
 public class FlattenTree {
 
     
-    public static void main(String[] args) {
-        // Contructing the binary Tree
-        TreeNode root = new TreeNode(1);
-        root.left = new TreeNode(2);
-        root.right = new TreeNode(5);
-        root.left.left = new TreeNode(3);
-        root.left.right = new TreeNode(4);
-        root.right.right = new TreeNode(6);
-        // Flatten the binary tree
-        FlattenTree solution = new FlattenTree();
-        solution.flatten(root);
-        // print the flatten tree
-        solution.printFlattenedTree(root);
-    }
     public void flatten(TreeNode root){
         if(root == null) return;
         TreeNode left = root.left;
@@ -51,5 +45,19 @@ public class FlattenTree {
         System.out.println("null");
     }
     
-    
+   public static void main(String[] args) {
+    // Contructing the binary Tree
+    TreeNode root = new TreeNode(1);
+    root.left = new TreeNode(2);
+    root.right = new TreeNode(5);
+    root.left.left = new TreeNode(3);
+    root.left.right = new TreeNode(4);
+    root.right.right = new TreeNode(6);
+    // Flatten the binary tree
+    FlattenTree solution = new FlattenTree();
+    solution.flatten(root);
+    // print the flatten tree
+    solution.printFlattenedTree(root);
+
+   }
 }

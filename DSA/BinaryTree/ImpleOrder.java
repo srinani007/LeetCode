@@ -16,7 +16,7 @@ public class ImpleOrder {
         if(node == null) {
             return;
         }
-        System.out.println(node.value +" ");
+        System.out.println(node.value + " ");
         PreOrder(node.left);
         PreOrder(node.right);
     }
@@ -29,7 +29,7 @@ public class ImpleOrder {
         root.right.left = new TreeNode('F');
 
         ImpleOrder impleOrder = new ImpleOrder();
-        System.out.println("PreOrder Transvesal ");
+        System.out.println("PreOrder Traversal ");
         impleOrder.PreOrder(root);
     }
     

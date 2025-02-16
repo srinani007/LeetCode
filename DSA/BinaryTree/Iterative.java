@@ -2,8 +2,18 @@ package BinaryTree;
 
 import java.util.Stack;
 
+class TreeNode {
+    char value;
+    TreeNode left, right;
 
-public class itrarative {
+    TreeNode(char item) {
+        value = item;
+        left = right = null;
+    }
+}
+
+
+public class Iterative {
     public void PreOrder(TreeNode root){
         if (root == null) {
             return;
@@ -30,7 +40,7 @@ public class itrarative {
         root.right.left = new TreeNode('F');
         root.right.right = new TreeNode('G');
 
-        itrarative i = new itrarative();
+        Iterative i = new Iterative();
         System.out.println("Preorder Traversal (Iterative): ");
         i.PreOrder(root);
         

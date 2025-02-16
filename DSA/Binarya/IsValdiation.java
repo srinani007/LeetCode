@@ -11,4 +11,12 @@ public class IsValdiation {
         if(root.val <= low || root.val >= high) return false;
         return Valdiation(root.left, low, root.val) && Valdiation(root.right, high, root.val);
     }
+    public static void main(String[] args) {
+        IsValdiation isValdiation = new IsValdiation();
+        TreeNode root = new TreeNode(3);
+        root.left = new TreeNode(1);
+        root.right = new TreeNode(4);
+        root.left.right = new TreeNode(2);
+        System.out.println(isValdiation.isValidBST(root));
+    }
 }

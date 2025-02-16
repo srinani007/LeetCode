@@ -5,7 +5,8 @@ import java.util.Set;
 import java.util.HashMap;
 import java.util.ArrayList;
 import java.util.HashSet;
-public class Graph {
+
+public class GraphGrap {
     private Map<Integer, List<Integer>> map = new HashMap<>();
     public void addEdge(int source, int destination) {
         map.putIfAbsent(source, new ArrayList<>());
@@ -23,7 +24,7 @@ public class Graph {
         }
     }
     public static void main(String[] args) {
-        Graph graph = new Graph();
+        GraphMap graph = new GraphMap();
         graph.addEdge(0, 1);
         graph.addEdge(0, 4);
         graph.addEdge(1, 2);

@@ -21,3 +21,10 @@ public class AsymetricTreeNode2 {
         return isMirror(left.left, right.right) && isMirror(left.right, right.left);
     }
 }
+
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode(int x) { val = x; }
+}

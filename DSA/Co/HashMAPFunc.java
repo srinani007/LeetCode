@@ -17,5 +17,7 @@ public class HashMAPFunc {
             map.put(s, map.getOrDefault(s, 0) + 1);
         }
         return map;
+
     }
+    
 }

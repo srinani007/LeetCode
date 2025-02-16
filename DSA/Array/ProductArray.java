@@ -15,4 +15,13 @@ public class ProductArray {
         }
         return answer;
     }
+    public static void main(String[] args) {
+        ProductArray pa = new ProductArray();
+        int[] nums = {1, 2, 3, 4};
+        int[] result = pa.productExceptSelf(nums);
+        for (int i : result) {
+            System.out.println(i);
+        }
+        
+    }
 }

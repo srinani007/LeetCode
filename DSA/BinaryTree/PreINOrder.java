@@ -3,6 +3,16 @@ package BinaryTree;
 import java.util.HashMap;
 import java.util.Map;
 
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+
+    TreeNode(int x) {
+        val = x;
+    }
+}
+
 /**
  * This class constructs a binary tree from given preorder and inorder traversal arrays.
  */

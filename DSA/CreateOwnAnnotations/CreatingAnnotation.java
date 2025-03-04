@@ -4,6 +4,8 @@ package CreateOwnAnnotations;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
+import inHertence.Dog;
+
 public class CreatingAnnotation {
     public static void main(String[] args) throws IllegalArgumentException, IllegalAccessException {
         // Creating an annotation

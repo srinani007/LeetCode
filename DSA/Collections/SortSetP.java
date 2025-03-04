@@ -2,14 +2,13 @@ package Collections;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 
 public class SortSetP {
     public static void main(String[] args) {
-        Set<String> set = new HashSet<>();
+        
         
         /*set.add("Apple");
         set.add("Banana");

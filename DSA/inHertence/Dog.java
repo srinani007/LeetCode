@@ -8,11 +8,16 @@ class Animal {
 }
 
 public class Dog extends Animal {
-    void bark() {
-        System.out.println("The dog barks.");
-    }
-    public static void main(String[] args) {
-        Dog myDog = new Dog();
+    
+   
+    public Dog(Object object) {
+                // Constructor implementation
+            }
+        void bark() {
+            System.out.println("The dog barks.");
+        }
+        public static void main(String[] args) {
+            Dog myDog = new Dog(null);
         myDog.eat();
         myDog.bark();
         

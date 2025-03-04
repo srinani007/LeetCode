@@ -23,6 +23,7 @@ class grouping {
             freq[n - min]++;
         }
 
+        @SuppressWarnings("unchecked")
         ArrayList<Integer>[] freqArr = new ArrayList[nums.length+1];
 
         for (int i=0; i<freq.length; i++) {

@@ -11,14 +11,12 @@ public class NQueens {
         boolean[] cols = new boolean[n];          // Tracks attacked columns
         boolean[] leftDiag = new boolean[2 * n]; // Tracks attacked left diagonals
         boolean[] rightDiag = new boolean[2 * n];// Tracks attacked right diagonals
-
         // Initialize the board with '.'
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 board[i][j] = '.';
             }
         }
-
         // Start solving the problem
         backtrack(board, 0, n, cols, leftDiag, rightDiag);
     }

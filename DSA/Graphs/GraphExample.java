@@ -69,8 +69,13 @@ class GraphMap {
     }
 
     public void DFS(int i, Set<Integer> visited) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'DFS'");
+        if (!visited.contains(i)) {
+            visited.add(i);
+            System.out.print(i + " ");
+            for (int neighbor : adjacencyList.get(i)) {
+                DFS(neighbor, visited);
+            }
+        }
     }
 }
 
